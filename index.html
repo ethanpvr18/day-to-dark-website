@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Day to Dark</title>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        </head>
+        <body>
+            <div id="particles-js"></div>
+            <button id="particle-button">Start</button>
+
+            <script src="particles.js"></script>
+
+            <script>
+                $("#particle-button").click(function(){
+                    particlesJS.load('particle-js','particles.json');  
+                });
+            </script>
+        </body>
+    </html>
+
+
