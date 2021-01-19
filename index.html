@@ -12,15 +12,10 @@
                 #particles-js {
                     background-color: black;
                 }
-                .inner1 {
-                   left:10%;
-                   top:15%;
-                    position:absolute;
-                }
-                .inner2 {
-                   left:60%;
-                   top:15%;
-                    position:absolute;
+                .inner {
+                   left:50%;
+                   top:50%;
+                   position:absolute;
                 }
                 .donatebox {
                     left: 40%;   
@@ -34,34 +29,40 @@
         </head>
         <body>
             <div id="particles-js">
-                <div class="inner1">
-                    <h1>Day to Dark</h1><br>
-                    <h2>Next-Generation Theatre Software</h2><br>
-                    <h3>To keep the development of Day to Dark moving forward, please consider donating below.</h3>
-                    <h3>More can be learned <a href="https://github.com/ethanpvr18/Day-to-Dark">here</a> for about the project and how to contribute!</h3>
-                </div>
+                <table class="inner">
+                  <thead>
+                    <tr>
+                      <th><h1>Day to Dark</h1></th>
+                      <th><h2>Where do your donations go?</h2></th>
+                      <th><h2>How will this project be developed?</h2></th>
+                    </tr>
+                   </thead>
+                   <tbody>
+                     <tr>
+                       <td><h2>Next-Generation Theatre Software</h2></td>
+                       <td><h3>To keep the development of Day to Dark moving forward, please consider donating below.</h3></td>
+                       <td><h3>More can be learned <a href="https://github.com/ethanpvr18/Day-to-Dark">here</a> for about the project and how to contribute!</h3></td>
+                     </tr>
+                     <tr>
+                       <td><p>Day to Dark is a Next Generation Theatre Free and Open Source Software Project developed with JUCE and C/C++. The goal of this project is to develop a application that Theatrical Technicians and Designers can rely on to run all departments of a production at the Local Small to Mid-Size Theatre level. This application will include after much development the following:</p></td>
+                       <td><ul>
+                            <li>A Cross-Platform Nature that can work on Mac OSX, Linux OS, and Windows OS</li>
+                            <li>A Collaborative Nature where theatrical designers and technicians can work on a single show file over a Local Area Network, with a Client-Server Style System, which will have redundancy in case one machine fails</li>
+                            <li>A Programmable Nature that different "modules" of the program can be added to any given workspace, with the option to create new Modules/Plugins</li>
+                            <li>Basic to Advanced Audiovisual editing and playback</li>
+                            <li>Multi-Channel Device I/O and Control</li>
+                            <li>Remote Show Control such as Open Sound Control and Midi Show Control</li>
+                            <li>3D - Environment Preview / Magic Sheet with Assets for Audio, Digital Media, Lighting, and Sets</li>
+                        </ul></td>
+                     </tr>
+                     <tr>
+                     </tr>
+                  </tbody>
+                </table>
             </div>
             
             <div class="donatebox">
                 <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe allowpaymentrequest="" frameborder="0" height="900px" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/day-to-dark-next-generation-theatre-software?default_interval=o&hide_donation_meter=true" style="max-width: 500px; min-width: 310px; max-height:none!important" width="100%"></iframe>
-            </div>
-            
-            <div class="inner2">
-                <div>
-                    <h1>How it Works</h1><br>
-                    <h2>Where do your donations go? How will this project be developed?</h2><br>
-                    <p>Day to Dark is a Next Generation Theatre Free and Open Source Software Project developed with JUCE and C/C++. The goal of this project is to develop a application that Theatrical Technicians and Designers can rely on to run all departments of a production at the Local Small to Mid-Size Theatre level. This application will include after much development the following:</p>
-                    <ul>
-                        <li>A Cross-Platform Nature that can work on Mac OSX, Linux OS, and Windows OS</li>
-                        <li>A Collaborative Nature where theatrical designers and technicians can work on a single show file over a Local Area Network, with a Client-Server Style System, which will have redundancy in case one machine fails</li>
-                        <li>A Programmable Nature that different "modules" of the program can be added to any given workspace, with the option to create new Modules/Plugins</li>
-                        <li>Basic to Advanced Audiovisual editing and playback</li>
-                        <li>Multi-Channel Device I/O and Control</li>
-                        <li>Remote Show Control such as Open Sound Control and Midi Show Control</li>
-                        <li>3D - Environment Preview / Magic Sheet with Assets for Audio, Digital Media, Lighting, and Sets</li>
-                    </ul>
-                    <h3>More can be learned <a href="https://github.com/ethanpvr18/Day-to-Dark">here</a> for about the project and how to contribute!</h3>
-                </div>
             </div>
                                     
             <script src="particles.js"></script>
