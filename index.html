@@ -15,6 +15,14 @@
                 #particles-js {
                     background-color: black;
                 }
+                .inner {
+                   left:50%;
+                   top:50%;
+                   -webkit-transform: translate(-50%, -50%);
+                    -moz-transform: translate(-50%, -50%);
+                   transform: translate(-50%, -50%);
+                   position:absolute;
+                }
             </style>
 
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,7 +30,7 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         </head>
         <body id="particles-js">
-            <div id="navbar"><span>Day to Dark</span></div>
+            <div class="inner" id="navbar"><span>Day to Dark</span></div>
                                     
             <script src="particles.js"></script>
 
